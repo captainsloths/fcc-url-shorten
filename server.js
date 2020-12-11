@@ -4,6 +4,7 @@ const mongo = require('mongodb');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const shortId = require('shortid');
+const validUrl = require('valid-url');
 const cors = require('cors');
 const app = express();
 
