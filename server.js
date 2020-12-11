@@ -23,8 +23,8 @@ app.get('/', function(req, res) {
 });
 
 //Connecting to MongoDB
-const uri = process.env.MONGO_URI;
-mongoose.connect(uri, {
+//const uri = process.env.MONGO_URI;
+mongoose.connect(process.env.MONGO_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   serverSelectionTimeoutMS: 5000 //Setting timeout to 5s instead of 30s
