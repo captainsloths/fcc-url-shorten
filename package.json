@@ -3,7 +3,6 @@
   "version": "0.0.3",
   "description": "API project for freeCodeCamp",
   "main": "server.js",
-  "build": "npm install --prefix client && npm run build --prefix client",
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js"
